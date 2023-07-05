@@ -6,7 +6,9 @@ add_executable(hello_world
     hello_world.cpp
     example.cpp
     example.h
-        hello_world.cpp move_me_out.cpp)
+    hello_world.cpp 
+    move_me_out.cpp
+    move_me_out.h)
 
 set_target_properties(hello_world PROPERTIES
     CXX_STANDARD 17
